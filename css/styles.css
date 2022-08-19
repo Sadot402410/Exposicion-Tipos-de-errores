@@ -1,0 +1,280 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    background-image: url(https://media.istockphoto.com/photos/empty-red-studio-room-used-as-background-for-display-your-products-picture-id810444370?b=1&k=20&m=810444370&s=170667a&w=0&h=2kG2bGeHFde3eL1kzuMXFBTvVLV53Z6HjSA9b3MraEQ=);
+}
+
+.container{
+    max-width: 700px;
+    margin:auto;
+    padding: 20px;
+}
+.container.section img{
+    text-align: center;
+}
+section{
+    border: 2px solid #f17909;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+}
+button{
+    width: 30%;
+    display: block;
+    margin:auto;
+    padding: 10px;
+    background-color: #cad776;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+
+    font-family: Century Gothic;
+    align-content: center;
+}
+
+button:hover{
+    background: rgb(116, 205, 47);
+    color: rgb(255, 255, 255);
+}
+h2{
+    text-align: center;
+}
+#resultado{
+    font-size: 30px;
+    color: darkred;
+}
+label{
+    display: block;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    border:1px dashed #ccc;
+    margin-bottom: 3px; 
+}
+label:hover{
+    background: #fcf5c0;
+}
+
+
+
+/*General*/
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p, li{
+    font-size: 35px;
+}
+img{    
+display:block;
+margin:auto;
+}
+
+
+.section, .section-one, .section-two, .section-three, .section-four, .section-five,.section-six{
+    font-family: Century Gothic;
+    margin-bottom: 30px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.section  {
+    background-color: #17a8a8;
+}
+.section-font{
+    margin-bottom: 30px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(10, 102, 102);
+}
+.section h1{
+    text-align: center;
+}
+.section-one{
+    background-color: aliceblue;
+}
+.section-one p{
+    text-align: justify;
+}
+.section img{
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+.section-one h2{
+    text-align: center;
+    font-family: Century Gothic;
+}
+
+
+.section-two{
+    background-color: aliceblue;
+}
+.section-two p{
+    text-align: justify;
+}
+.section-two h2{
+    text-align: center;
+}
+.section-three{
+    background-color: aliceblue;
+}
+.section-three p{
+    text-align: justify;
+}
+.section-three h2{
+    text-align: center;
+}
+.section-four{
+    background-color:aliceblue;
+}
+.section-four p{
+    text-align: justify;
+}
+.section-four h2{
+    text-align: center;
+}
+.section-five{
+    background-color:aliceblue;
+}
+.section-five p{
+    text-align: justify;
+}
+.section-five h2{
+    text-align: center;
+}
+.section-six{
+    background-color:aliceblue;
+}
+.section-six p{
+    text-align: justify;
+}
+.section-six h2{
+    text-align: center;
+}
+
+/*Navegacion*/
+.nav{
+    background-color: #f17909;
+    height: 70px;
+    position: fixed;  
+    width: 102%; 
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+.nav-container{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-uaeh{    
+    width: 10%;
+}
+.nav-menu{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3em;
+}
+.nav-li{
+    list-style: none;
+}
+.nav-a{
+    font-size: 23px;
+    font-family: Century Gothic;
+    color:black;
+    text-decoration: none;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+
+}
+.nav-a::after{
+    content: "";
+    display: block;
+    background-color: black;
+    width: 90%;
+    margin-top: 3px;
+    height: 3px;
+    clip-path: var(--clippy);
+    transition: .3s;
+}
+.nav-a:hover{
+    --clippy: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+/*Index*/
+.section-borde{
+    padding-top: 90px;
+    margin: 5px;
+}
+.UAEH{
+    margin: 30px;
+    float: left;
+    width: 20%;
+}
+.ESTi{
+    margin: 30px;
+    float: right;
+    width: 20%;
+}
+.section-portada{
+    margin: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.integrantes{
+    list-style: none;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+/*errores*/
+.section-dife{
+    padding-top: 90px;
+}
+.img-pasos, .img-construccion{
+    margin-left: 35%;
+    margin-top: 15px;
+    width: 30%;
+}
+
+/*Analisis*/
+.section-valores{
+    padding-top: 90px;
+}
+.img-valores{
+    margin-left: 30%;
+    margin-top: 15px;
+    width: 40%;
+}
+.img-procesos{
+    margin-left: 20%;
+    margin-top: 15px;
+    width: 65%;
+}
+.img-valor1, .img-valor2{
+    width: 80%;
+}
+.div{
+    display: flex;
+    text-align: center;
+}
+.div-valorinferior{
+    width: 47%;
+}
+.div-valorsuperior{
+    width: 47%;
+    margin-left: auto;
+}
+
